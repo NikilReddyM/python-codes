@@ -1,0 +1,5 @@
+n = input()
+eng = set(input().split())
+m = input()
+fre = set(input().split())
+print(len(eng|fre))
